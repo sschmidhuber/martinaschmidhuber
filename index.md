@@ -5,6 +5,11 @@
 layout: home
 ---
 
-# Martina Schmidhuber
+Einleitung
+...
 
-This is some example text.
+[Curriculum Vitae](assets/cv.pdf)
+
+Links
+* [LinkedIn](https://www.linkedin.com/in/martina-schmidhuber-b67052171/)
+* [Zeitschrift für Praktische Philosophie](https://www.praktische-philosophie.org/)
