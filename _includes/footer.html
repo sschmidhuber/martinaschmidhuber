@@ -3,7 +3,7 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading">Kontaktieren Sie mich gerne:</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -17,6 +17,13 @@
             </li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a href="https://www.linkedin.com/in/martina-schmidhuber-b67052171" target="_blank">
+              <svg class="svg-icon">
+                <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+              </svg>
+              <span class="username">LinkedIn</span>
+            </a>
+              </li>
             {%- endif -%}
         </ul>
       </div>
@@ -26,7 +33,9 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        {%- if site.author -%}
+          <p>{{- site.description | escape -}}</p>
+        {%- endif -%}
       </div>
     </div>
 
